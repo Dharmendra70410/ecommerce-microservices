@@ -39,3 +39,16 @@ Notes
 License
 
 MIT
+
+About
+
+This repository is a student project demonstrating a microservices-based e-commerce platform built for a distributed computing course. The system separates responsibilities into services so the team can develop, test, and deploy components independently.
+
+Team Responsibilities
+
+- **Payment gateway:** Service integration and payment flow design (sandbox/test integrations with Stripe/PayPal). Handles payment requests, validations, and webhook processing.
+- **Authentication:** User signup/login, session management, JWT-based auth, email verification, password reset, and role-based access control for admin vs. users.
+- **Inventory:** Product catalog, stock management, seed data in `backend/data/`, endpoints for stock adjustments, and consistency when orders are placed.
+- **API Gateway:** Request routing, authentication proxying, and aggregation of responses from backend services.
+
+If you want, I can expand these sections with architecture diagrams, team member names and tasks, or add a CONTRIBUTING.md and CODE_OF_CONDUCT.
