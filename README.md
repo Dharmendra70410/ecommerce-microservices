@@ -43,6 +43,20 @@ About
 
 This repository implements an e-commerce website built as a microservices system. The application runs across five services (nodes) that together provide the full shopping experience and business logic.
 
+My Contribution
+
+I worked on the frontend user experience and the customer flow of the e-commerce platform. My part focuses on building the interactive UI and the core shopping journey so users can browse products, manage their cart, and complete authentication securely.
+
+Highlights of my work:
+
+- Built the product listing UI with reusable cards for showing items clearly and attractively.
+- Implemented the add-to-cart flow and cart state management so users can save products while browsing.
+- Created the cart page with quantity updates, remove-item actions, and total calculation.
+- Developed the checkout flow so users can review their selected items before payment.
+- Built the login and signup flow with OTP-based email verification.
+- Added password reset / forgot password screens to complete the authentication journey.
+- Connected the frontend screens with the backend API layer so the team could integrate the service-based architecture properly.
+
 Services
 
 - `frontend` — React + Vite user interface that communicates with the API Gateway and handles cart, checkout, and client-side validation.
@@ -53,7 +67,7 @@ Services
 
 Team Responsibilities
 
-- **Frontend:** Build and maintain the user-facing UI, cart flows, checkout integration, and client-side form validation.
+- **Frontend:** Build and maintain the user-facing UI, card-based product display, add-to-cart flow, cart page, checkout flow, and client-side form validation.
 - **API Gateway:** Route and aggregate requests, enforce API-level authentication and rate-limiting, and act as the single entry point for clients.
 - **Authentication:** Implement secure user authentication and authorization, JWT flows, email verification, and account management.
 - **Payment Gateway:** Integrate with payment providers (sandbox), implement payment processing, handle payment webhooks, and ensure idempotency and security for transactions.
