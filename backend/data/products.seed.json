@@ -1,0 +1,498 @@
+﻿[
+    {
+        "productId":  "PROD-001",
+        "name":  "Apple iPhone 14 128GB",
+        "description":  "6.1-inch Super Retina XDR display, A15 Bionic chip, dual camera system.",
+        "brand":  "Apple",
+        "category":  "Smartphones",
+        "images":  [
+                       "https://loremflickr.com/1200/900/apple,iphone,14,128gb,apple,smartphones,product?lock=1"
+                   ],
+        "price":  64999,
+        "mrp":  69999,
+        "stock":  32,
+        "ratingAverage":  4.6,
+        "ratingCount":  1542,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-002",
+        "name":  "Samsung Galaxy S23 256GB",
+        "description":  "Dynamic AMOLED display, Snapdragon processor, pro-grade camera.",
+        "brand":  "Samsung",
+        "category":  "Smartphones",
+        "images":  [
+                       "https://loremflickr.com/1200/900/samsung,galaxy,s23,256gb,samsung,smartphones,product?lock=2"
+                   ],
+        "price":  67999,
+        "mrp":  74999,
+        "stock":  28,
+        "ratingAverage":  4.5,
+        "ratingCount":  1218,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-003",
+        "name":  "OnePlus 12R 256GB",
+        "description":  "Flagship-grade performance with fast charging and AMOLED panel.",
+        "brand":  "OnePlus",
+        "category":  "Smartphones",
+        "images":  [
+                       "https://loremflickr.com/1200/900/oneplus,12r,256gb,oneplus,smartphones,product?lock=3"
+                   ],
+        "price":  42999,
+        "mrp":  45999,
+        "stock":  44,
+        "ratingAverage":  4.4,
+        "ratingCount":  873,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-004",
+        "name":  "Xiaomi Redmi Note 13 Pro",
+        "description":  "200MP camera, high-refresh AMOLED display, all-day battery.",
+        "brand":  "Xiaomi",
+        "category":  "Smartphones",
+        "images":  [
+                       "https://loremflickr.com/1200/900/xiaomi,redmi,note,13,pro,xiaomi,smartphones,product?lock=4"
+                   ],
+        "price":  24999,
+        "mrp":  27999,
+        "stock":  65,
+        "ratingAverage":  4.3,
+        "ratingCount":  1045,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-005",
+        "name":  "Realme Narzo 70 Pro",
+        "description":  "Affordable 5G smartphone with smooth display and fast charging.",
+        "brand":  "Realme",
+        "category":  "Smartphones",
+        "images":  [
+                       "https://loremflickr.com/1200/900/realme,narzo,70,pro,realme,smartphones,product?lock=5"
+                   ],
+        "price":  18999,
+        "mrp":  20999,
+        "stock":  72,
+        "ratingAverage":  4.2,
+        "ratingCount":  612,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-006",
+        "name":  "HP Pavilion 15 Ryzen 7 Laptop",
+        "description":  "15.6-inch FHD laptop with Ryzen 7, 16GB RAM and 512GB SSD.",
+        "brand":  "HP",
+        "category":  "Laptops",
+        "images":  [
+                       "https://loremflickr.com/1200/900/hp,pavilion,15,ryzen,7,laptop,hp,laptops,product?lock=6"
+                   ],
+        "price":  62999,
+        "mrp":  69999,
+        "stock":  24,
+        "ratingAverage":  4.4,
+        "ratingCount":  488,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-007",
+        "name":  "Lenovo IdeaPad Slim 5 Intel i5",
+        "description":  "Thin and light productivity laptop with 16GB RAM and SSD storage.",
+        "brand":  "Lenovo",
+        "category":  "Laptops",
+        "images":  [
+                       "https://loremflickr.com/1200/900/lenovo,ideapad,slim,5,intel,i5,lenovo,laptops,product?lock=7"
+                   ],
+        "price":  55999,
+        "mrp":  61999,
+        "stock":  29,
+        "ratingAverage":  4.3,
+        "ratingCount":  537,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-008",
+        "name":  "ASUS TUF Gaming F15",
+        "description":  "Gaming laptop with dedicated GPU, high refresh-rate display.",
+        "brand":  "ASUS",
+        "category":  "Laptops",
+        "images":  [
+                       "https://loremflickr.com/1200/900/asus,tuf,gaming,f15,asus,laptops,product?lock=8"
+                   ],
+        "price":  74999,
+        "mrp":  82999,
+        "stock":  17,
+        "ratingAverage":  4.5,
+        "ratingCount":  643,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-009",
+        "name":  "Apple MacBook Air M2",
+        "description":  "Lightweight premium laptop with Apple M2 chip and long battery life.",
+        "brand":  "Apple",
+        "category":  "Laptops",
+        "images":  [
+                       "https://loremflickr.com/1200/900/apple,macbook,air,m2,apple,laptops,product?lock=9"
+                   ],
+        "price":  99999,
+        "mrp":  109900,
+        "stock":  14,
+        "ratingAverage":  4.8,
+        "ratingCount":  923,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-010",
+        "name":  "Acer Aspire 7 RTX 3050",
+        "description":  "Performance laptop for work and gaming with RTX 3050 graphics.",
+        "brand":  "Acer",
+        "category":  "Laptops",
+        "images":  [
+                       "https://loremflickr.com/1200/900/acer,aspire,7,rtx,3050,acer,laptops,product?lock=10"
+                   ],
+        "price":  67999,
+        "mrp":  74999,
+        "stock":  19,
+        "ratingAverage":  4.3,
+        "ratingCount":  402,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-011",
+        "name":  "Sony WH-1000XM5 Headphones",
+        "description":  "Premium wireless noise-cancelling headphones with excellent sound.",
+        "brand":  "Sony",
+        "category":  "Audio",
+        "images":  [
+                       "https://loremflickr.com/1200/900/sony,wh,1000xm5,headphones,sony,audio,product?lock=11"
+                   ],
+        "price":  27999,
+        "mrp":  31999,
+        "stock":  36,
+        "ratingAverage":  4.7,
+        "ratingCount":  1301,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-012",
+        "name":  "JBL Tune 770NC",
+        "description":  "Wireless over-ear headphones with active noise cancellation.",
+        "brand":  "JBL",
+        "category":  "Audio",
+        "images":  [
+                       "https://loremflickr.com/1200/900/jbl,tune,770nc,jbl,audio,product?lock=12"
+                   ],
+        "price":  6999,
+        "mrp":  8999,
+        "stock":  88,
+        "ratingAverage":  4.2,
+        "ratingCount":  516,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-013",
+        "name":  "Boat Airdopes 141",
+        "description":  "Affordable true wireless earbuds with low-latency mode.",
+        "brand":  "Boat",
+        "category":  "Audio",
+        "images":  [
+                       "https://loremflickr.com/1200/900/boat,airdopes,141,boat,audio,product?lock=13"
+                   ],
+        "price":  1499,
+        "mrp":  2999,
+        "stock":  150,
+        "ratingAverage":  4.1,
+        "ratingCount":  3402,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-014",
+        "name":  "Samsung 55-inch 4K Smart TV",
+        "description":  "Crystal UHD smart TV with HDR and voice assistant support.",
+        "brand":  "Samsung",
+        "category":  "Televisions",
+        "images":  [
+                       "https://loremflickr.com/1200/900/samsung,55,inch,4k,smart,tv,samsung,televisions,product?lock=14"
+                   ],
+        "price":  45999,
+        "mrp":  57999,
+        "stock":  21,
+        "ratingAverage":  4.4,
+        "ratingCount":  712,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-015",
+        "name":  "LG 43-inch Full HD Smart TV",
+        "description":  "Compact smart TV with vibrant display and webOS platform.",
+        "brand":  "LG",
+        "category":  "Televisions",
+        "images":  [
+                       "https://loremflickr.com/1200/900/lg,43,inch,full,hd,smart,tv,lg,televisions,product?lock=15"
+                   ],
+        "price":  28999,
+        "mrp":  34999,
+        "stock":  27,
+        "ratingAverage":  4.3,
+        "ratingCount":  589,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-016",
+        "name":  "Whirlpool 340L Double Door Refrigerator",
+        "description":  "Frost-free refrigerator with efficient cooling and inverter tech.",
+        "brand":  "Whirlpool",
+        "category":  "Home Appliances",
+        "images":  [
+                       "https://loremflickr.com/1200/900/whirlpool,340l,double,door,refrigerator,whirlpool,home,appliances,product?lock=16"
+                   ],
+        "price":  32999,
+        "mrp":  39999,
+        "stock":  15,
+        "ratingAverage":  4.2,
+        "ratingCount":  321,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-017",
+        "name":  "IFB 7kg Front Load Washing Machine",
+        "description":  "Front-load washing machine with multiple wash programs.",
+        "brand":  "IFB",
+        "category":  "Home Appliances",
+        "images":  [
+                       "https://loremflickr.com/1200/900/ifb,7kg,front,load,washing,machine,ifb,home,appliances,product?lock=17"
+                   ],
+        "price":  28999,
+        "mrp":  34999,
+        "stock":  18,
+        "ratingAverage":  4.3,
+        "ratingCount":  275,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-018",
+        "name":  "Dyson V11 Cordless Vacuum Cleaner",
+        "description":  "High-suction cordless vacuum cleaner for deep home cleaning.",
+        "brand":  "Dyson",
+        "category":  "Home Appliances",
+        "images":  [
+                       "https://loremflickr.com/1200/900/dyson,v11,cordless,vacuum,cleaner,dyson,home,appliances,product?lock=18"
+                   ],
+        "price":  42999,
+        "mrp":  49999,
+        "stock":  10,
+        "ratingAverage":  4.6,
+        "ratingCount":  198,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-019",
+        "name":  "Nike Air Zoom Pegasus 40",
+        "description":  "Versatile running shoes with responsive cushioning.",
+        "brand":  "Nike",
+        "category":  "Footwear",
+        "images":  [
+                       "https://loremflickr.com/1200/900/nike,air,zoom,pegasus,40,nike,footwear,product?lock=19"
+                   ],
+        "price":  9499,
+        "mrp":  11999,
+        "stock":  63,
+        "ratingAverage":  4.5,
+        "ratingCount":  834,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-020",
+        "name":  "Adidas Ultraboost Light",
+        "description":  "Premium running shoes with energy-return foam.",
+        "brand":  "Adidas",
+        "category":  "Footwear",
+        "images":  [
+                       "https://loremflickr.com/1200/900/adidas,ultraboost,light,adidas,footwear,product?lock=20"
+                   ],
+        "price":  12999,
+        "mrp":  15999,
+        "stock":  41,
+        "ratingAverage":  4.4,
+        "ratingCount":  567,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-021",
+        "name":  "Puma Smash v2 Sneakers",
+        "description":  "Casual everyday sneakers with durable sole and classic look.",
+        "brand":  "Puma",
+        "category":  "Footwear",
+        "images":  [
+                       "https://loremflickr.com/1200/900/puma,smash,v2,sneakers,puma,footwear,product?lock=21"
+                   ],
+        "price":  3499,
+        "mrp":  4999,
+        "stock":  79,
+        "ratingAverage":  4.1,
+        "ratingCount":  421,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-022",
+        "name":  "Levi\u0027s 511 Slim Fit Jeans",
+        "description":  "Classic slim fit denim jeans for casual wear.",
+        "brand":  "Levi\u0027s",
+        "category":  "Fashion",
+        "images":  [
+                       "https://loremflickr.com/1200/900/levi,s,511,slim,fit,jeans,levi,s,fashion,product?lock=22"
+                   ],
+        "price":  2599,
+        "mrp":  3999,
+        "stock":  92,
+        "ratingAverage":  4.2,
+        "ratingCount":  932,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-023",
+        "name":  "Allen Solly Men\u0027s Casual Shirt",
+        "description":  "Breathable cotton casual shirt for everyday office and outings.",
+        "brand":  "Allen Solly",
+        "category":  "Fashion",
+        "images":  [
+                       "https://loremflickr.com/1200/900/allen,solly,men,s,casual,shirt,allen,solly,fashion,product?lock=23"
+                   ],
+        "price":  1399,
+        "mrp":  2299,
+        "stock":  110,
+        "ratingAverage":  4.1,
+        "ratingCount":  602,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-024",
+        "name":  "Casio G-Shock GA-2100",
+        "description":  "Rugged analog-digital watch with shock resistance.",
+        "brand":  "Casio",
+        "category":  "Accessories",
+        "images":  [
+                       "https://loremflickr.com/1200/900/casio,g,shock,ga,2100,casio,accessories,product?lock=24"
+                   ],
+        "price":  7499,
+        "mrp":  8995,
+        "stock":  34,
+        "ratingAverage":  4.7,
+        "ratingCount":  744,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-025",
+        "name":  "Fossil Grant Chronograph Watch",
+        "description":  "Premium leather-strap chronograph watch.",
+        "brand":  "Fossil",
+        "category":  "Accessories",
+        "images":  [
+                       "https://loremflickr.com/1200/900/fossil,grant,chronograph,watch,fossil,accessories,product?lock=25"
+                   ],
+        "price":  9999,
+        "mrp":  12995,
+        "stock":  23,
+        "ratingAverage":  4.4,
+        "ratingCount":  318,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-026",
+        "name":  "Mi 20000mAh Power Bank",
+        "description":  "Fast-charging high-capacity power bank with dual output.",
+        "brand":  "Xiaomi",
+        "category":  "Accessories",
+        "images":  [
+                       "https://loremflickr.com/1200/900/mi,20000mah,power,bank,xiaomi,accessories,product?lock=26"
+                   ],
+        "price":  1999,
+        "mrp":  2499,
+        "stock":  125,
+        "ratingAverage":  4.3,
+        "ratingCount":  1802,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-027",
+        "name":  "Logitech MX Master 3S Mouse",
+        "description":  "Ergonomic wireless productivity mouse with silent clicks.",
+        "brand":  "Logitech",
+        "category":  "Computer Accessories",
+        "images":  [
+                       "https://loremflickr.com/1200/900/logitech,mx,master,3s,mouse,logitech,computer,accessories,product?lock=27"
+                   ],
+        "price":  8995,
+        "mrp":  10995,
+        "stock":  46,
+        "ratingAverage":  4.8,
+        "ratingCount":  678,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-028",
+        "name":  "Logitech K380 Bluetooth Keyboard",
+        "description":  "Compact multi-device Bluetooth keyboard.",
+        "brand":  "Logitech",
+        "category":  "Computer Accessories",
+        "images":  [
+                       "https://loremflickr.com/1200/900/logitech,k380,bluetooth,keyboard,logitech,computer,accessories,product?lock=28"
+                   ],
+        "price":  2799,
+        "mrp":  3495,
+        "stock":  84,
+        "ratingAverage":  4.5,
+        "ratingCount":  1249,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-029",
+        "name":  "SanDisk Extreme 1TB SSD",
+        "description":  "Portable SSD with high-speed data transfer and durable design.",
+        "brand":  "SanDisk",
+        "category":  "Computer Accessories",
+        "images":  [
+                       "https://loremflickr.com/1200/900/sandisk,extreme,1tb,ssd,sandisk,computer,accessories,product?lock=29"
+                   ],
+        "price":  8499,
+        "mrp":  10499,
+        "stock":  38,
+        "ratingAverage":  4.6,
+        "ratingCount":  563,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-030",
+        "name":  "Nivea Men Face Wash (Pack of 3)",
+        "description":  "Daily face wash for oil control and deep cleansing.",
+        "brand":  "Nivea",
+        "category":  "Personal Care",
+        "images":  [
+                       "https://loremflickr.com/1200/900/nivea,men,face,wash,pack,of,3,nivea,personal,care,product?lock=30"
+                   ],
+        "price":  495,
+        "mrp":  660,
+        "stock":  200,
+        "ratingAverage":  4.2,
+        "ratingCount":  2110,
+        "isActive":  true
+    },
+    {
+        "productId":  "PROD-031",
+        "name":  "Mamaearth Onion Hair Oil 250ml",
+        "description":  "Hair nourishment oil with botanical extracts.",
+        "brand":  "Mamaearth",
+        "category":  "Personal Care",
+        "images":  [
+                       "https://loremflickr.com/1200/900/mamaearth,onion,hair,oil,250ml,mamaearth,personal,care,product?lock=31"
+                   ],
+        "price":  379,
+        "mrp":  499,
+        "stock":  170,
+        "ratingAverage":  4.1,
+        "ratingCount":  1587,
+        "isActive":  true
+    }
+]

@@ -1,0 +1,40 @@
+{
+  "name": "ecommerce-api-gateway",
+  "version": "1.0.0",
+  "description": "Production-grade API Gateway + Authentication Service for distributed e-commerce microservices",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "api-gateway",
+    "authentication",
+    "microservices",
+    "ecommerce",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.22.0",
+    "nodemailer": "^8.0.5",
+    "redis": "^5.12.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
