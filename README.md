@@ -39,16 +39,28 @@ Notes
 License
 
 MIT
-
 About
 
-This repository is a student project demonstrating a microservices-based e-commerce platform built for a distributed computing course. The system separates responsibilities into services so the team can develop, test, and deploy components independently.
+This repository implements an e-commerce website built as a microservices system. The application runs across five services (nodes) that together provide the full shopping experience and business logic.
+
+Services
+
+- `frontend` — React + Vite user interface that communicates with the API Gateway and handles cart, checkout, and client-side validation.
+- `ecommerce-api-gateway` — Central gateway that routes requests to backend services, performs request aggregation, and proxies authentication.
+- `authentication` (backend auth responsibilities in `backend/`) — Handles user signup/login, JWT issuance and verification, email verification, password reset, and role-based access control.
+- `payment` (payment responsibilities in `backend/`) — Manages payment flows and integrations (sandbox Stripe/PayPal), payment validation, and webhook handling.
+- `inventory` (product responsibilities in `backend/`) — Manages product catalog, stock levels, seed data in `backend/data/`, and updates stock on order placement.
 
 Team Responsibilities
 
-- **Payment gateway:** Service integration and payment flow design (sandbox/test integrations with Stripe/PayPal). Handles payment requests, validations, and webhook processing.
-- **Authentication:** User signup/login, session management, JWT-based auth, email verification, password reset, and role-based access control for admin vs. users.
-- **Inventory:** Product catalog, stock management, seed data in `backend/data/`, endpoints for stock adjustments, and consistency when orders are placed.
-- **API Gateway:** Request routing, authentication proxying, and aggregation of responses from backend services.
+- **Frontend:** Build and maintain the user-facing UI, cart flows, checkout integration, and client-side form validation.
+- **API Gateway:** Route and aggregate requests, enforce API-level authentication and rate-limiting, and act as the single entry point for clients.
+- **Authentication:** Implement secure user authentication and authorization, JWT flows, email verification, and account management.
+- **Payment Gateway:** Integrate with payment providers (sandbox), implement payment processing, handle payment webhooks, and ensure idempotency and security for transactions.
+- **Inventory:** Implement product catalog APIs, manage stock updates and consistency when orders are placed, and provide endpoints for admin stock adjustments.
 
-If you want, I can expand these sections with architecture diagrams, team member names and tasks, or add a CONTRIBUTING.md and CODE_OF_CONDUCT.
+Notes
+
+- The repo layout reflects the split of responsibilities; some backend code for auth/payment/inventory lives under `backend/` while the gateway and frontend are in their own folders.
+- `.env.local` files are excluded by `.gitignore` — keep secrets and API keys out of git.
+- I can add a diagram, map team member names to responsibilities, or create `CONTRIBUTING.md` and `ARCHITECTURE.md` if you want.
